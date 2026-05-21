@@ -16,26 +16,46 @@
           "@id": "https://alextsil.com/#person",
           "name": "Alex Tsilingiris",
           "url": "https://alextsil.com/",
-          "image": "https://alextsil.com/logo2.png",
+          "description": "I lead AI and Data initiatives—from strategy to production.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://alextsil.com/logo2.png",
+            "width": 1280,
+            "height": 977
+          },
           "jobTitle": "Data & AI Strategist",
           "sameAs": [
             "https://linkedin.com/in/alextsil/"
           ],
           "knowsAbout": [
-            "Artificial Intelligence",
-            "Generative AI",
-            "Machine Learning",
-            "Data Strategy",
-            "Cloud Architecture",
-            "Analytics Engineering"
-          ]
+            {
+              "@type": "Thing",
+              "name": "Artificial Intelligence",
+              "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+            },
+            {
+              "@type": "Thing",
+              "name": "Generative artificial intelligence",
+              "sameAs": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"
+            },
+            {
+              "@type": "Thing",
+              "name": "Machine Learning",
+              "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"
+            },
+            { "@type": "Thing", "name": "Data Strategy" },
+            { "@type": "Thing", "name": "Cloud Architecture" },
+            { "@type": "Thing", "name": "Analytics Engineering" }
+          ],
+          "mainEntityOfPage": { "@id": "https://alextsil.com/#webpage" }
         },
         {
           "@type": "WebSite",
           "@id": "https://alextsil.com/#website",
           "url": "https://alextsil.com/",
           "name": "Alex Tsilingiris",
-          "publisher": { "@id": "https://alextsil.com/#person" }
+          "inLanguage": "en",
+          "author": { "@id": "https://alextsil.com/#person" }
         },
         {
           "@type": "WebPage",
@@ -43,6 +63,7 @@
           "url": "https://alextsil.com/",
           "name": "Alex Tsilingiris | Data & AI Strategist",
           "description": "I lead AI and Data initiatives—from strategy to production.",
+          "inLanguage": "en",
           "isPartOf": { "@id": "https://alextsil.com/#website" },
           "about": { "@id": "https://alextsil.com/#person" }
         }
