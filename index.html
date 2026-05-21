@@ -10,38 +10,43 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Alex Tsilingiris",
-      "url": "https://alextsil.com/"
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Alex Tsilingiris | Data & AI Strategist",
-      "url": "https://alextsil.com/",
-      "isPartOf": {
-        "@type": "WebSite",
-        "url": "https://alextsil.com/"
-      },
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Alex Tsilingiris",
-        "url": "https://alextsil.com/"
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Alex Tsilingiris",
-      "url": "https://alextsil.com/",
-      "image": "https://alextsil.com/logo2.png",
-      "jobTitle": "Data & AI Strategist",
-      "sameAs": ["https://linkedin.com/in/alextsil/"],
-      "knowsAbout": ["AI", "Data Strategy", "Cloud Computing"]
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://alextsil.com/#person",
+          "name": "Alex Tsilingiris",
+          "url": "https://alextsil.com/",
+          "image": "https://alextsil.com/logo2.png",
+          "jobTitle": "Data & AI Strategist",
+          "sameAs": [
+            "https://linkedin.com/in/alextsil/"
+          ],
+          "knowsAbout": [
+            "Artificial Intelligence",
+            "Generative AI",
+            "Machine Learning",
+            "Data Strategy",
+            "Cloud Architecture",
+            "Analytics Engineering"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://alextsil.com/#website",
+          "url": "https://alextsil.com/",
+          "name": "Alex Tsilingiris",
+          "publisher": { "@id": "https://alextsil.com/#person" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://alextsil.com/#webpage",
+          "url": "https://alextsil.com/",
+          "name": "Alex Tsilingiris | Data & AI Strategist",
+          "description": "I lead AI and Data initiatives—from strategy to production.",
+          "isPartOf": { "@id": "https://alextsil.com/#website" },
+          "about": { "@id": "https://alextsil.com/#person" }
+        }
+      ]
     }
     </script>
 
@@ -55,12 +60,22 @@
     </script>
 
     <link rel="canonical" href="https://alextsil.com/">
+    <meta name="author" content="Alex Tsilingiris">
+    <meta name="description" content="I lead AI and Data initiatives—from strategy to production.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+
     <meta property="og:title" content="Alex Tsilingiris | Data & AI Strategist">
-    <meta name="description" content="I lead AI and Data initiatives—from strategy to production. Contact me on LinkedIn.">
+    <meta property="og:description" content="I lead AI and Data initiatives—from strategy to production.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://alextsil.com/">
     <meta property="og:image" content="https://alextsil.com/logo2.png">
+    <meta property="og:image:alt" content="Alex Tsilingiris — Data & AI Strategist">
     <meta property="og:site_name" content="Alex Tsilingiris">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Alex Tsilingiris | Data & AI Strategist">
+    <meta name="twitter:description" content="I lead AI and Data initiatives—from strategy to production.">
+    <meta name="twitter:image" content="https://alextsil.com/logo2.png">
 
 
     <style>
