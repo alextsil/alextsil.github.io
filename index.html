@@ -312,7 +312,7 @@
   *,*::before,*::after{box-sizing:border-box}
 
   html{
-    scroll-behavior:smooth;scroll-padding-top:88px;
+    scroll-behavior:smooth;scroll-padding-top:24px;
     -webkit-text-size-adjust:100%;
     background:var(--navy);
   }
@@ -356,14 +356,9 @@
   :focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:2px}
 
   .topbar{
-    position:sticky;top:0;z-index:50;
     background:rgba(4,6,102,.88);
-    backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);
-    transition:transform .28s ease;
   }
-
-  .topbar.is-hidden{transform:translateY(-100%)}
   .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:66px}
 
   .brand{display:flex;align-items:center;gap:11px;font-family:var(--mono);font-size:14px;letter-spacing:.06em;color:var(--yellow)}
@@ -507,8 +502,6 @@
     body{font-size:16px}
     .topbar .wrap{flex-direction:column;align-items:flex-start;gap:0;padding-top:11px;padding-bottom:8px}
     .nav{margin-left:-11px;margin-top:2px}
-
-    html{scroll-padding-top:96px}
     .hero{padding:44px 0 40px}
     .hero-logo{width:112px}
     .hero-meta{font-size:12.5px;letter-spacing:.08em}
@@ -809,53 +802,6 @@
 <script>
 (function () {
   'use strict';
-
-  var bar = document.querySelector('.topbar');
-  if (bar) {
-    var syncPad = function () {
-      document.documentElement.style.scrollPaddingTop = (bar.offsetHeight + 18) + 'px';
-    };
-    syncPad();
-    if (window.ResizeObserver) {
-      new ResizeObserver(syncPad).observe(bar);
-    } else {
-      window.addEventListener('resize', syncPad);
-    }
-    window.addEventListener('orientationchange', syncPad);
-    if (document.fonts && document.fonts.ready) { document.fonts.ready.then(syncPad); }
-
-    var lastY = 0, queued = false, showUntil = 0;
-    var update = function () {
-      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
-      if (y < 0) { y = 0; }
-      if (Date.now() < showUntil) {
-        bar.classList.remove('is-hidden');
-      } else if (y <= bar.offsetHeight) {
-        bar.classList.remove('is-hidden');
-      } else if (Math.abs(y - lastY) > 6) {
-        if (y > lastY) { bar.classList.add('is-hidden'); }
-        else { bar.classList.remove('is-hidden'); }
-      }
-      lastY = y;
-    };
-    var onScroll = function () {
-      if (queued) { return; }
-      queued = true;
-      window.requestAnimationFrame(function () { update(); queued = false; });
-    };
-    try {
-      window.addEventListener('scroll', onScroll, { passive: true });
-    } catch (e) {
-      window.addEventListener('scroll', onScroll);
-    }
-
-    bar.addEventListener('focusin', function () { bar.classList.remove('is-hidden'); });
-
-    window.addEventListener('hashchange', function () {
-      showUntil = Date.now() + 700;
-      bar.classList.remove('is-hidden');
-    });
-  }
 
   var el = document.getElementById('typed');
   if (!el) { return; }
