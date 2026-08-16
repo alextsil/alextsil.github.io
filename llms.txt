@@ -1,6 +1,6 @@
 # Alex Tsilingiris
 
-> Lead AI Engineer. Builds applied AI on planetary-scale data — insights platforms, large-scale data processing and analysis, and the AI applications on top. 10+ years shipping software into production, taking projects the whole distance from idea to a system carrying real traffic.
+> Lead AI Engineer. Builds applied AI on high-volume data: insights platforms, large-scale data processing and analysis, and the AI applications on top. 10+ years shipping software into production, taking projects the whole distance from idea to a system carrying real traffic.
 
 This file is a complete, machine-readable profile. The canonical human-facing
 page is <https://alextsil.com/>, which contains the same information in HTML
@@ -9,7 +9,7 @@ with schema.org JSON-LD markup.
 - **Name:** Alex Tsilingiris
 - **Title:** Lead AI Engineer
 - **Also described as:** AI Engineer, Applied AI Engineer, Technical Lead, AI Solutions Architect
-- **Focus:** Applied AI R&D — idea to production
+- **Focus:** Applied AI R&D, idea to production
 - **Experience:** 10+ years building and shipping production software
 - **Education:** Engineer's Degree in Informatics Engineering, MSc Computer Science
 - **Certifications:** AWS Certified Solutions Architect – Associate
@@ -18,7 +18,7 @@ with schema.org JSON-LD markup.
 - **LinkedIn:** https://www.linkedin.com/in/alextsil/
 - **GitHub:** https://github.com/alextsil
 - **Email:** hello@alextsil.com
-- **Location:** Thessaloniki, Greece — works remotely
+- **Location:** Thessaloniki, Greece. Works remotely
 
 ## Contact
 
@@ -32,7 +32,7 @@ building software that holds up in the real world.
 
 AI is a confusing place right now, for everyone. The tooling evolves monthly.
 Yesterday's best practice is today's dead end. And the hard part was never the
-idea — it's the distance between a demo that dazzles and a system that still
+idea. It's the distance between a demo that dazzles and a system that still
 works on Monday morning, with real people and real data going through it. That
 distance is where he works.
 
@@ -41,10 +41,10 @@ architecture, the build, the launch, and the 3am phone call afterwards. Working
 out what is actually possible, what it genuinely costs, and what is hype. What
 comes out the other side is a system that runs.
 
-In practice that means insights platforms built on planetary-scale data: the
+In practice that means insights platforms built on high-volume data: the
 large-scale processing and analysis underneath that turns vast, messy, real-world
 data into something a business can act on, and the AI applications on top that
-people actually use — retrieval that stays grounded, agents that call tools and
+people actually use: retrieval that stays grounded, agents that call tools and
 hold state, and the evaluation that shows whether any of it holds up with real
 users in front of it.
 
@@ -62,7 +62,7 @@ The road here was deliberate. Engineering in the Dutch startup space. Research
 and software engineering at a university, teaching undergraduate and Master's
 Computer Science classes, and publishing peer-reviewed research on large-scale
 data integration. Then adtech startups, and after them a global leader in
-adtech — performance-critical systems where latency, scale and correctness were
+adtech. Performance-critical systems where latency, scale and correctness were
 never negotiable, because in that industry being wrong is measured in money per
 second.
 
@@ -72,7 +72,7 @@ second.
 Global leader in adtech.
 - Applied AI R&D: insights platforms and AI systems built on large-scale
   data processing and analysis.
-- AI applications on top of that data layer — retrieval and grounding, agentic
+- AI applications on top of that data layer: retrieval and grounding, agentic
   workflows that call tools and hold state, and the evaluation harnesses that
   establish whether they actually work.
 - The distributed infrastructure underneath: event-driven, horizontally
@@ -122,27 +122,27 @@ Rockstart-accelerated startup, Netherlands.
 
 ## Education
 
-### MSc, Computer Science — Aristotle University of Thessaloniki (2016 – 2018)
+### MSc, Computer Science, Aristotle University of Thessaloniki (2016 – 2018)
 One of Greece's top universities.
 Thesis: *Data Integration of multiple Social Media platforms*. Distributed
 databases, parallel workloads and large-scale processing; graph databases and
 algorithms; machine learning.
 
-### Engineer's Degree, Informatics Engineering — International Hellenic University (2010 – 2015)
+### Engineer's Degree, Informatics Engineering, International Hellenic University (2010 – 2015)
 Thesis: *Java code obfuscator*. Core informatics and hardware architectures,
 with a specialisation in software engineering and computer networking.
 
 ## Certifications
 
-- **AWS Certified Solutions Architect – Associate** — Amazon Web Services.
-  Credential ID a9bb2133619849f299bb9734d4d1e2e4 — verify at
+- **AWS Certified Solutions Architect – Associate**, Amazon Web Services.
+  Credential ID a9bb2133619849f299bb9734d4d1e2e4, verify at
   <https://cp.certmetrics.com/amazon/en/public/verify/credential/a9bb2133619849f299bb9734d4d1e2e4>
 
 ## Publications
 
-- **An Online Social Network Data Integration system based on reactive microservices** — IEEE International Conference on Smart Computing (SMARTCOMP '18), 2018. https://doi.org/10.1109/SMARTCOMP.2018.00059
-- **Learning Programming through Design** — IEEE Global Engineering Education Conference (EDUCON '18), 2018. https://doi.org/10.1109/EDUCON.2018.8363478
-- **Exploring Computational Thinking Skills in 3D Printing: A Data Analysis of an Online Makerspace** — IEEE Global Engineering Education Conference (EDUCON '19), 2019. https://doi.org/10.1109/EDUCON.2019.8725202
+- **An Online Social Network Data Integration system based on reactive microservices**. IEEE International Conference on Smart Computing (SMARTCOMP '18), 2018. https://doi.org/10.1109/SMARTCOMP.2018.00059
+- **Learning Programming through Design**. IEEE Global Engineering Education Conference (EDUCON '18), 2018. https://doi.org/10.1109/EDUCON.2018.8363478
+- **Exploring Computational Thinking Skills in 3D Printing: A Data Analysis of an Online Makerspace**. IEEE Global Engineering Education Conference (EDUCON '19), 2019. https://doi.org/10.1109/EDUCON.2019.8725202
 
 ## Areas of expertise
 

@@ -1,10 +1,10 @@
 # https://alextsil.com/robots.txt
 #
-# This site WANTS to be read — by search engines, by AI answer engines,
+# This site WANTS to be read by search engines, by AI answer engines,
 # and by the crawlers that build them. Everything here is public
 # professional information, published deliberately.
 #
-# IMPORTANT — why this file is grouped the way it is:
+# IMPORTANT: why this file is grouped the way it is:
 # robots.txt matching is "most specific group wins, and ONLY that group
 # applies". A crawler that matches a named User-agent group never reads the
 # `User-agent: *` group at all. So a Content-Signal placed only under `*`
@@ -19,7 +19,7 @@
 # blocks at the edge regardless of this file, and must stay OFF.
 
 # ---------------------------------------------------------------
-# Default — everyone not named below
+# Default: everyone not named below
 # ---------------------------------------------------------------
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
@@ -41,7 +41,7 @@ Allow: /
 Disallow:
 
 # ---------------------------------------------------------------
-# AI answer engines — retrieval / live grounding
+# AI answer engines: retrieval / live grounding
 # ---------------------------------------------------------------
 User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
@@ -57,7 +57,7 @@ Allow: /
 Disallow:
 
 # ---------------------------------------------------------------
-# AI crawlers — indexing and training
+# AI crawlers: indexing and training
 # ---------------------------------------------------------------
 User-agent: GPTBot
 User-agent: ClaudeBot
