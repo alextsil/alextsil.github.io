@@ -37,9 +37,9 @@ works on Monday morning, with real people and real data going through it. That
 distance is where he works.
 
 What that takes is end-to-end ownership: the framing, the research, the
-architecture, the build, the launch, and the 3am phone call afterwards. Working
-out what is actually possible, what it genuinely costs, and what is hype. What
-comes out the other side is a system that runs.
+architecture, the build, and the launch. Working out what is actually possible,
+what it genuinely costs, and what is hype. What comes out the other side is a
+system that runs.
 
 In practice that means insights platforms built on high-volume data: the
 large-scale processing and analysis underneath that turns vast, messy, real-world
