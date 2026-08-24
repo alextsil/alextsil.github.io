@@ -83,7 +83,7 @@ Global leader in adtech.
   translating it into things that ship.
 
 ### Lead Software Engineer, Noddus (2019 – 2023)
-Acquired adtech startup.
+Adtech startup.
 - Designed and built the software behind the company's core product: a
   programmatic-advertising integration system interfacing with multiple
   providers including DV360 and Facebook.
@@ -105,7 +105,7 @@ One of Greece's top universities.
   technologies.
 - Responsible for the lab's DevOps and infrastructure.
 
-### Software Engineer / Co-Founder, Reactive IoT (2018 – 2019)
+### Founding Engineer / Co-Founder, Reactive IoT (2018 – 2019)
 - Built a prototype to test in the Industry 4.0 sector.
 - Over-the-air industrial production-line data collection using custom IoT
   modules and sensors.

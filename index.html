@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
 <title>Alex Tsilingiris · Lead AI Engineer</title>
 <meta name="description" content="Alex Tsilingiris is a Lead AI Engineer. Applied AI R&amp;D on high-volume data: insights platforms, large-scale data processing and analysis, and AI applications taken from idea to production.">
 <meta name="author" content="Alex Tsilingiris">
@@ -186,8 +189,8 @@
       "@type": "ProfilePage",
       "@id": "https://alextsil.com/#webpage",
       "url": "https://alextsil.com/",
-      "dateCreated": "2026-08-15",
-      "dateModified": "2026-08-16",
+      "dateCreated": "2026-08-15T00:00:00+03:00",
+      "dateModified": "2026-08-16T00:00:00+03:00",
       "name": "Alex Tsilingiris · Lead AI Engineer",
       "description": "Professional profile of Alex Tsilingiris, Lead AI Engineer.",
       "inLanguage": "en",
@@ -458,7 +461,8 @@
   .entry li:last-child{margin-bottom:0}
   .entry li::marker{color:var(--amber)}
 
-  .item{border-left:2px solid var(--line);padding-left:20px;margin-bottom:22px}
+  .item{border-left:2px solid var(--line);padding-left:20px;margin-bottom:22px;transition:border-color .2s ease}
+  .item:hover{border-left-color:var(--amber)}
   .item:last-child{margin-bottom:0}
   .item-title{font-size:16.5px;color:var(--yellow);font-weight:500;margin:0 0 3px;line-height:1.45}
   .item-sub{font-family:var(--mono);font-size:12.5px;color:var(--gold);opacity:.9;margin:0}
@@ -637,7 +641,7 @@
         <div class="entry-head">
           <div>
             <h4>Lead Software Engineer</h4>
-            <div class="org">Noddus, acquired adtech startup</div>
+            <div class="org">Noddus, adtech startup</div>
           </div>
           <div class="when">2019 – 2023</div>
         </div>
@@ -668,7 +672,7 @@
       <article class="entry">
         <div class="entry-head">
           <div>
-            <h4>Software Engineer / Co-Founder</h4>
+            <h4>Founding Engineer / Co-Founder</h4>
             <div class="org">Reactive IoT</div>
           </div>
           <div class="when">2018 – 2019</div>
@@ -803,6 +807,9 @@
 (function () {
   'use strict';
 
+  /* typewriter: progressive enhancement only.
+     The first phrase is already in the HTML, so crawlers and no-JS
+     visitors always see real text. */
   var el = document.getElementById('typed');
   if (!el) { return; }
   if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
